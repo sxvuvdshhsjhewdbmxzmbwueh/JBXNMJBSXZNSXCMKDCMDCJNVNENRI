@@ -14,7 +14,7 @@ $(document).ready(function() {
                 e >= 30 && (clearInterval(c), n()), e += 1, a.css("width", e + "%")
             }, 45)
     }
-    $.backstretch("https://i.ibb.co/xF9MPJT/background.jpg"), $(".feature").matchHeight(), $("#generate-btn").on("click", function() {
+    $.backstretch('https://i.ibb.co/xF9MPJT/background.jpg'), $(".feature").matchHeight(), $("#generate-btn").on("click", function() {
         $(".popup-modal > .overlay").fadeIn(function() {
             $("#loading-modal").slideDown(), a(function() {
                 $("#loading-modal").slideUp(function() {
